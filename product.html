@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - TechSphere</title>
+    <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="%233A79F2"/><rect x="30" y="20" width="40" height="60" rx="10" fill="none" stroke="white" stroke-width="5"/><path d="M40 75 Q 20 75 20 55" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M60 25 Q 80 25 80 45" stroke="white" stroke-width="5" fill="none" stroke-linecap="round"/></svg>'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- =========================
+              HEADER
+    =========================== -->
+    <header class="sticky">
+        <nav class="container">
+            <a href="index.html" class="logo"><img src="logo.jpg" alt="TechSphere Logo"> TechSphere</a>
+            <div class="menu" id="main-menu">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="faq.html">FAQ</a>
+                <a href="cart.html" class="cart-icon">Cart <span id="cart-count">0</span></a>
+            </div>
+            <button class="hamburger-menu" id="hamburger-menu" aria-label="Open Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main class="container product-details">
+        <section class="product-info">
+            <img src="https://via.placeholder.com/400" alt="Product Image" id="product-image">
+            <div class="details">
+                <h1 id="product-name">Product Name</h1>
+                <div class="price" id="product-price">$99.99</div>
+                <p id="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+                
+                <p class="delivery-info"><b>Delivery available throughout Pakistan.</b></p>
+
+                <div class="quantity-selector">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" value="1" min="1">
+                </div>
+
+                <div class="actions">
+                    <button class="btn add-to-cart-btn">Add to Cart</button>
+                    <button class="btn whatsapp-order-btn">Order on WhatsApp</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+                REVIEWS SECTION
+         =========================== -->
+        
+        <section class="reviews-section">
+            <h2>Customer Reviews</h2>
+        
+            <!-- Overall Rating Summary -->
+            <div class="reviews-summary">
+                <div class="average-rating">
+                    <span id="average-rating-value">0.0</span>/5
+                </div>
+                <div class="total-reviews">
+                    Based on <span id="total-reviews-count">0</span> reviews
+                </div>
+            </div>
+
+            <!-- Call to action -->
+            <div class="write-review-cta">
+                <a href="#review-form-container" class="btn">Write a Review</a>
+            </div>
+        
+            <!-- Sorting Options -->
+            <div class="review-sort">
+                <label for="sort-reviews">Sort by:</label>
+                <select id="sort-reviews">
+                    <option value="newest">Newest</option>
+                    <option value="highest">Highest Rated</option>
+                </select>
+            </div>
+        
+            <!-- Reviews List -->
+            <div id="reviews-list">
+                <!-- JS will populate this -->
+            </div>
+        
+            <!-- Placeholder for when there are no reviews -->
+            <div id="no-reviews-placeholder" class="hidden">
+                <p>No reviews yet — be the first to share your experience!</p>
+            </div>
+        
+            <!-- "Write a Review" Form -->
+            <div id="review-form-container" class="review-form-container">
+                <h3>Write a Review</h3>
+                <form id="review-form">
+                    <div class="form-group">
+                        <label for="customer-name">Your Name (Optional)</label>
+                        <input type="text" id="customer-name" placeholder="e.g., Ali Khan">
+                    </div>
+                    <div class="form-group">
+                        <label>Your Rating</label>
+                        <div class="star-rating-input">
+                            <i class="fa-regular fa-star" data-value="1"></i>
+                            <i class="fa-regular fa-star" data-value="2"></i>
+                            <i class="fa-regular fa-star" data-value="3"></i>
+                            <i class="fa-regular fa-star" data-value="4"></i>
+                            <i class="fa-regular fa-star" data-value="5"></i>
+                        </div>
+                         <input type="hidden" id="star-rating" name="rating" value="0" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="review-message">Review</label>
+                        <textarea id="review-message" rows="4" placeholder="What did you like or dislike?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit Review</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================
+                FOOTER
+    =========================== -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=61584493950033" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/tech_sphere_pk/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@tech_sphere_pk?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <a href="https://wa.me/923490581384" class="whatsapp-button"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+            <p>&copy; 2025 TechSphere. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ==================================
+         STICKY CHECKOUT BAR
+    ===================================== -->
+    <div class="sticky-checkout-bar" id="sticky-checkout-bar">
+        <div class="container">
+            <div class="sticky-checkout-info">
+                <p><span id="sticky-cart-count">0</span> item(s) in your cart</p>
+                <div class="sticky-checkout-total">
+                    <strong>Total: <span id="sticky-cart-total">$0.00</span></strong>
+                </div>
+            </div>
+            <a href="checkout.html" class="btn">Checkout</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
