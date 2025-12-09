@@ -287,8 +287,37 @@ document.addEventListener('DOMContentLoaded', function() {
         category: "Airpods",
         featured: false,
         bestseller: false
+    },
+    {
+        id: 27,
+        name: "Me&You 2 Wireless Earbuds",
+        price: 3000,
+        image: "products/Airpod2.jpeg",
+        description: "Experience premium sound with the Me&You 2 Wireless Earbuds, featuring advanced ENC noise cancellation, Bluetooth 5.4 connectivity, and a sleek white design. Enjoy crystal-clear calls, high-definition audio, and a stable wireless connection wherever you go. The compact charging case provides all-day convenience, making these earbuds perfect for music lovers, commuters, and anyone seeking stylish, high-performance true wireless earphones.",
+        category: "Airpods",
+        featured: false,
+        bestseller: false
+    },
+    {
+        id: 28,
+        name: "JBUDS AirExecutive True Wireless Earbuds",
+        price: 3000,
+        image: "products/Airpod3.jpeg",
+        description: "JBUDS AirExecutive True Wireless Earbuds - sleek black Bluetooth earbuds with premium sound, 30+ hours of playtime, and crystal‑clear calling. Featuring custom DSP sound tuning, Cloud Foam eartips, and auto‑on & connect for seamless use. Ideal for business, travel, and everyday music lovers.",
+        category: "Airpods",
+        featured: true,
+        bestseller: true
+    },
+    {
+        id: 29,
+        name: "TREBLE 3-in-1 Wireless Speaker, TWS Earbuds & Power Bank",
+        price: 4000,
+        image: "products/Speaker3.jpeg",
+        description: "Unleash powerful sound with the TREBLE 3-in-1 Wireless Speaker, TWS Earbuds & Power Bank, featuring a sleek black design that combines a portable Bluetooth speaker, true wireless earbuds, and a built-in power bank—all in one compact device. Enjoy rich, immersive audio powered by a 5W high-performance driver, plus smooth Bluetooth connectivity for effortless music playback. With its integrated power bank, you can conveniently charge your phone or earbuds on the go, making it perfect for travel, outdoor use, study sessions, and everyday listening. This smart 3-in-1 system gives you loudspeaker audio, private earphone listening, and portable charging—all in one stylish package.",
+        category: "Speaker",
+        featured: false,
+        bestseller: false
     }
-
 
     ];
 
