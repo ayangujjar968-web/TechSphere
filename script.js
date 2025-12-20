@@ -319,14 +319,14 @@ document.addEventListener('DOMContentLoaded', function() {
         bestseller: true
     },
     {
-  id: 30,
-  name: "Sikenai LY-G300 Bluetooth Headphones",
-  price: 6800,
-  image: "products/Headphone2.png",
-  description: "High-Fidelity Audio with LED Visualizer Elevate your listening experience with the Sikenai LY-G300. These head-mounted Bluetooth earphones combine premium sound quality with a modern, tech-forward aesthetic.Premium Sound: Features Hi-Fi audio technology for crisp highs and deep, immersive bass.Dynamic LED Display: Stand out with a unique, built-in blue LED visualizer that pulses on the earcups.Advanced Features: Equipped with noise-cancellation technology to provide a focused listening environment.",
-  category: "HeadPhones",
-  featured: true,
-  bestseller: false
+        id: 30,
+        name: "Sikenai LY-G300 Bluetooth Headphones",
+        price: 6800,
+        image: "products/Headphone2.png",
+        description: "High-Fidelity Audio with LED Visualizer Elevate your listening experience with the Sikenai LY-G300. These head-mounted Bluetooth earphones combine premium sound quality with a modern, tech-forward aesthetic.Premium Sound: Features Hi-Fi audio technology for crisp highs and deep, immersive bass.Dynamic LED Display: Stand out with a unique, built-in blue LED visualizer that pulses on the earcups.Advanced Features: Equipped with noise-cancellation technology to provide a focused listening environment.",
+        category: "HeadPhones",
+        featured: true,
+        bestseller: false
     },
     {
         id: 31,
