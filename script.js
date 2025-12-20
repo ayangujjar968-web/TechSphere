@@ -341,7 +341,7 @@ document.addEventListener('DOMContentLoaded', function() {
     {
         id: 32,
         name: "Onikuma K20 Professional Gaming Headset",
-        price: 1800,
+        price: 4500,
         image: "products/Headphone4.png",
         description: "Engineered for Competitive Play Dominating the game requires precision. The Onikuma K20 is a professional-grade gaming headset designed for comfort and tactical audio clarity.Audio Precision: Powered by 40mm directional drivers to help you hear every footstep and detail.Noise-Cancelling Mic: Features a high-quality, flexible microphone that filters out background noise for clear team communication.Built to Last: Designed with an adjustable steel slider for a custom, durable fit during long gaming sessions.Multi-Platform: Fully compatible with PC, consoles, and mobile devices.",
         category: "HeadPhones",
@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
     {
         id: 33,
         name: "Kotion Each G9600 Camo Edition",
-        price: 2400,
+        price: 5400,
         image: "products/Headphone5.png",
         description: "Surround Yourself in the Action Gear up with the G9600. This heavy-duty gaming headset features a rugged camouflage design and immersive surround sound capabilities.Immersive Audio: Experience \"You're Surrounded\" sound quality that brings your games to life.Signature Look: Unique yellow camouflage pattern with glowing blue LED accents.Universal Connection: Features a standard 3.5mm jack for wide compatibility across all your favorite devices.Soft Comfort: Breathable mesh ear pads designed to keep you cool under pressure.",
         category: "HeadPhones",
